@@ -25,20 +25,18 @@ void setup() {
 
 void loop() {
   // THIS IS WHERE WE WILL PUT OUR CODE
-  switchColour("Blue");
-  switchColour("Red");
-  switchColour("Green");
-  switchColour("Yellow");
-  setRGBColour(18, 255, 251);
-  delay(100);
-  switchColour("Blue");
-  switchColour("Red");
-  switchColour("Green");
-  switchColour("Yellow");
-  setRGBColour(100, 100, 100);
-  delay(100);
+switchColour("Blue");
+switchColour("Red");
+switchColour("Green");
+switchColour("Yellow");
+delay(100);
+switchColour("Blue");
+switchColour("Red");
+switchColour("Green");
+switchColour("Yellow");
+setRGBColour(random(0,225),random(0,225), random(0,225));
+delay(100);
 }
-
 /**
  * Can use the function below to set the colour of the RGB Led.
  * call the function and give it 3 values between 0 and 255.
